@@ -1,0 +1,19 @@
+{
+    "name": "alfredo/proyecto_poo",
+    "description": "Practica co php & poo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jose Alfredo Lopez Mares",
+            "email": "alfredo.lm392@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./clases"
+        }
+    }
+}
